@@ -35,12 +35,14 @@ A data structure called stack is declared as the struct Stack with :
 
 Function main is designed in such a way that it checks the isBalanced function on three mathematical expressions that are predetermined
 It contains a definition of an array of three constant strings:
-    ⇒a + (b − c) ∗ (d
-    ⇒m + [a − b ∗ (c + d ∗ {m)]
-    ⇒a + (b − c)
-    It applies a loop to go through each expression and call isBalanced to call out whether the brackets are balanced.
-    It prints each expression followed by an output that indicates whether it is or is not balanced ("Balanced" or "Not Balanced").
-    This Returns 0 to signify that it has succeeded.
+
+⇒a + (b − c) ∗ (d
+⇒m + [a − b ∗ (c + d ∗ {m)]
+⇒a + (b − c)
+
+It applies a loop to go through each expression and call isBalanced to call out whether the brackets are balanced.
+It prints each expression followed by an output that indicates whether it is or is not balanced ("Balanced" or "Not Balanced").
+This Returns 0 to signify that it has succeeded.
 
 (d) Sample Output of a Complete Run of the Program
 
@@ -52,6 +54,7 @@ It contains a definition of an array of three constant strings:
 
     Expression: a + (b - c)
     Balanced
+
 
 
 
