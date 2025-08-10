@@ -1,4 +1,4 @@
-Documentation for 4 number question
+# Documentation for 4 number question
 
 
 # Explanation of how the Data Structures Are Defined
@@ -55,6 +55,7 @@ Insert 40 after 10: 5 10 40
 Delete 10: 5 40
 
     
+
 
 
 
