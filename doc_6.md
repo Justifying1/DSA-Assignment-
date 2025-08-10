@@ -1,19 +1,19 @@
-    Documentation for 6 number question
+Documentation for 6 number question
 
 
-(a) Explanation of how the Data Structures Are Defined
+# Explanation of how the Data Structures Are Defined
 
-    The data structure of this program is mainly one dimensional integer arrays which will be used to hold input data, as well as the heaps.
+The data structure of this program is mainly one dimensional integer arrays which will be used to hold input data, as well as the heaps.
 
-   * Array HeapRepresentation (arr[100] and arr copy[100]):
+* Array HeapRepresentation (arr[100] and arr copy[100]):
     
-    . They are the arrays of integer values of fixed size (maximum 100 elements; the size is implicitly defined by the array size in    main() ). The array arr keeps the unsorted integers provided by user and is subsequently converted to a max-heap. We start with an array copy arr_copy in order to maintain the original unsorted data so that the two heap builds are independent of each other.
+. They are the arrays of integer values of fixed size (maximum 100 elements; the size is implicitly defined by the array size in    main() ). The array arr keeps the unsorted integers provided by user and is subsequently converted to a max-heap. We start with an array copy arr_copy in order to maintain the original unsorted data so that the two heap builds are independent of each other.
     
-    . The array holds a complete binary tree in level-order: There is an index i (starting at 0), the left child of this node is at position 2i + 1, the right child at position 2i + 2 and the parent is at (i-1)/2 (as an integer). Such implicit tree representation makes heap operations possible without explicit pointers, which is very efficient.
+. The array holds a complete binary tree in level-order: There is an index i (starting at 0), the left child of this node is at position 2i + 1, the right child at position 2i + 2 and the parent is at (i-1)/2 (as an integer). Such implicit tree representation makes heap operations possible without explicit pointers, which is very efficient.
 
-    . No other data structures such as linked list or queue, are utilized, since heaps can be built only through array manipulations and thus injuries a heap around O(n) on time complexity of the heap building operation.
+. No other data structures such as linked list or queue, are utilized, since heaps can be built only through array manipulations and thus injuries a heap around O(n) on time complexity of the heap building operation.
 
-     The reason why this representation scheme of array-based is appealing is its space economy (no pointer overhead) and the ease of enforcing the heap properties. 
+The reason why this representation scheme of array-based is appealing is its space economy (no pointer overhead) and the ease of enforcing the heap properties. 
 
 
 
@@ -91,5 +91,6 @@
     Enter 6 numbers: 2 4 6 2 8 9
     Max-Heap: 9 8 6 2 4 2 
     Min-Heap: 2 2 6 4 8 9
+
 
    
