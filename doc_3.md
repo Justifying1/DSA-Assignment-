@@ -1,7 +1,7 @@
 Documentation for 3 number question
 
 
-(a) Explanation of how the Data Structures Are Defined
+# Explanation of how the Data Structures Are Defined
 
     A singly linked list has been utilized as our data structure in this program.
     We suppose it by means of the struct Node:
@@ -12,7 +12,7 @@ Documentation for 3 number question
     The struct Node enable us to construct several nodes and all the nodes are connected to form a linked list.
     
 
-(b) Description of the Functions Implemented with their purpose
+# Description of the Functions Implemented with their purpose
 
 1. createNode:
 
@@ -33,7 +33,7 @@ Documentation for 3 number question
      Purpose: Shows contents of the linked list in backward manner.
 
 
-(c) Overview of How the main() Method Is Organized
+# Overview of How the main() Method Is Organized
 
       Program is illustrated by the main () function:
 
@@ -50,10 +50,11 @@ Documentation for 3 number question
       Exit the program with 0.
 
 
-(d) Sample Output of a Complete Run of the Program
+# Sample Output of a Complete Run of the Program
 
    Forward: 11 21 36 48 50
    Reverse: 50 48 36 21 11
+
 
 
 
