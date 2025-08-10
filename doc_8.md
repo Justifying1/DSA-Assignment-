@@ -65,8 +65,11 @@ Finally Prints the number of comparisons and swaps made during the sorting of th
 ## Sample Output of a Complete Run of the Program
 
 Enter the number of elements (N): 8
+
 Unsorted array: 800 859 805 790 940 905 284 386
+
 Choose a sorting algorithm:
+
 1. Bubble Sort
 2. Selection Sort
 3. Insertion Sort
@@ -74,4 +77,5 @@ Choose a sorting algorithm:
 Enter choice (1-4): 2
 Sorted array (Selection Sort): 284 386 790 800 805 859 905 940
 Total comparisons: 28
+
 Total swaps: 7
