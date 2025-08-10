@@ -9,7 +9,7 @@ The program uses a doubly linked list with a Node struct:
 
 . prev: Pointer to the previous node.
 
-    next: Pointer to the next node.
+. next: Pointer to the next node.
 
 
 # Description of the Functions Implemented with their purpose
@@ -20,7 +20,7 @@ Purpose: Inserts a node with data after node p.
 
 2. deleteNode:
 
-purpose: Deletes node d from the list.
+Purpose: Deletes node d from the list.
 
 3. printList:
    
@@ -46,12 +46,16 @@ The main() function:
  
 (d) Sample Output of a Complete Run of the Program 
     
-    Initial original: 5
-    Insert 10 after 5: 5 10
-    Insert 40 after 10: 5 10 40
-    Delete 10: 5 40
+Initial original: 5
+    
+Insert 10 after 5: 5 10
+    
+Insert 40 after 10: 5 10 40
+    
+Delete 10: 5 40
 
     
+
 
 
 
