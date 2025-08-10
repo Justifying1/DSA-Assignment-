@@ -1,47 +1,47 @@
 Documentation for 4 number question
 
 
-(a) Explanation of how the Data Structures Are Defined
+# Explanation of how the Data Structures Are Defined
 
-    The program uses a doubly linked list with a Node struct:
+The program uses a doubly linked list with a Node struct:
 
-    data: Integer value of the node.
+. data: Integer value of the node.
 
-    prev: Pointer to the previous node.
+. prev: Pointer to the previous node.
 
     next: Pointer to the next node.
 
 
-(b) Description of the Functions Implemented with their purpose
+# Description of the Functions Implemented with their purpose
 
 1. insertAfter:
    
-   Purpose: Inserts a node with data after node p.
+Purpose: Inserts a node with data after node p.
 
 2. deleteNode:
 
-   Deletes node d from the list.
+purpose: Deletes node d from the list.
 
 3. printList:
    
-   Prints node data in the list.
+Purpose: Prints node data in the list.
 
 
-(c) Overview of How the main() Method Is Organized
+# Overview of How the main() Method Is Organized
     
-    The main() function:
+The main() function:
 
-    Creates a list with one node (5).
+. Creates a list with one node (5).
 
-    Prints the initial list.
+. Prints the initial list.
 
-    Inserts 10 after 5, prints the list.
+. Inserts 10 after 5, prints the list.
 
-    Inserts 40 after 10, prints the list.
+. Inserts 40 after 10, prints the list.
 
-    Deletes node 10, prints the list.
+. Deletes node 10, prints the list.
 
-    Release all nodes, returns 0.
+. Release all nodes, returns 0.
 
  
 (d) Sample Output of a Complete Run of the Program 
@@ -52,6 +52,7 @@ Documentation for 4 number question
     Delete 10: 5 40
 
     
+
 
 
 
