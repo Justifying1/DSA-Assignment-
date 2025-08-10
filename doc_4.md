@@ -44,7 +44,7 @@ The main() function:
 . Release all nodes, returns 0.
 
  
-(d) Sample Output of a Complete Run of the Program 
+# Sample Output of a Complete Run of the Program 
     
 Initial original: 5
     
@@ -55,6 +55,7 @@ Insert 40 after 10: 5 10 40
 Delete 10: 5 40
 
     
+
 
 
 
