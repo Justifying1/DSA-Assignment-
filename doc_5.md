@@ -73,7 +73,6 @@ puropse: Does Depth-First Search of vertex start. Visits a vertex, makes it visi
 (d) Sample Output of a Complete Run of the Program 
 
   Adjacency Matrix:
-
      0 0 0 0 1 1
      0 0 0 0 0 1
      0 0 0 0 1 0
@@ -84,6 +83,7 @@ puropse: Does Depth-First Search of vertex start. Visits a vertex, makes it visi
   BFS Traversal: 0 4 5 2 1
   
   DFS Traversal: 0 4 2 5 1
+
 
 
 
