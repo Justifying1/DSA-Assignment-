@@ -31,7 +31,7 @@ Two stacks are based on arrays, used in the program:
 
 (c) Overview of How the main() Method Is Organized
 
-    The main() function
+The main() function
 
 1. Defines one example of an infix expression test: "3 + 4 * 2".
 
@@ -49,9 +49,10 @@ Two stacks are based on arrays, used in the program:
 
 (d) Sample Output of a Complete Run of the Program
 
-    Infix: 3 + 4 * 2
-    Postfix: 3 4 2 * +
-    Result: 11.00
+   Infix: 3 + 4 * 2
+   Postfix: 3 4 2 * +
+   Result: 11.00
+
 
 
 
