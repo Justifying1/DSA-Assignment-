@@ -74,8 +74,11 @@ They do not have returns on values of the functions, but only of their side effe
 3. Heap Construction and Display:
    
  . Calls replaceMaxHeap(arr, n) in order to create a max-heap of arr.
+ 
  . Prints Max-Heap: and then the contents of arr separated by printArray.
+ 
  . Calls calls MinHeap(arr_copy, n) to make arr_copy a min-heap.
+ 
  . Prints Min-Heap: and then calls printArray on arr_copy.
 
 
@@ -96,6 +99,7 @@ Min-Heap: 2 2 6 4 8 9
 
 
    
+
 
 
 
