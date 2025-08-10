@@ -87,11 +87,15 @@ They do not have returns on values of the functions, but only of their side effe
 # Sample Output of a Complete Run of the Program 
 
 Enter the number:6
+
 Enter 6 numbers: 2 4 6 2 8 9
+
 Max-Heap: 9 8 6 2 4 2 
+
 Min-Heap: 2 2 6 4 8 9
 
 
    
+
 
 
