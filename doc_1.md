@@ -53,15 +53,16 @@ This Returns 0 to signify that it has succeeded.
 
 . Expression: a + (b - c) * (d
 
-  Not Balanced
+   Not Balanced
 
 . Expression: m + [a - b * (c + d * {m)]
 
-  Not Balanced
+   Not Balanced
 
 . Expression: a + (b - c)
 
-  Balanced
+   Balanced
+
 
 
 
