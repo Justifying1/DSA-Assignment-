@@ -33,8 +33,8 @@ A data structure called stack is declared as the struct Stack with :
 
 (c) Overview of How the main() Method Is Organized
 
-    Function main is designed in such a way that it checks the isBalanced function on three mathematical expressions that are predetermined
-    It contains a definition of an array of three constant strings:
+Function main is designed in such a way that it checks the isBalanced function on three mathematical expressions that are predetermined
+It contains a definition of an array of three constant strings:
     ⇒a + (b − c) ∗ (d
     ⇒m + [a − b ∗ (c + d ∗ {m)]
     ⇒a + (b − c)
@@ -52,6 +52,7 @@ A data structure called stack is declared as the struct Stack with :
 
     Expression: a + (b - c)
     Balanced
+
 
 
 
