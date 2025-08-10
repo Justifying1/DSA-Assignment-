@@ -3,7 +3,7 @@ Documentation for 2 number question
 
 (a) Explanation of how the Data Structures Are Defined
 
-    Two stacks are based on arrays, used in the program:
+Two stacks are based on arrays, used in the program:
 
    1. Character Stack: A unvarying character stature container (stack[MAX] with MAX = 100) go into which to push the operators and parens during the shifting between infix and postfix forms. There is an integer, initialized to -1, to represent the top element with a variable top.
 
@@ -52,6 +52,7 @@ Documentation for 2 number question
     Infix: 3 + 4 * 2
     Postfix: 3 4 2 * +
     Result: 11.00
+
 
 
 
