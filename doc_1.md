@@ -1,4 +1,4 @@
-Documentation for 1 number question
+# Documentation for 1 number question
 
 
 # Explanation of how the Data Structures Are Defined
@@ -59,6 +59,7 @@ This Returns 0 to signify that it has succeeded.
 . Expression: m + [a - b * (c + d * {m)]  Not Balanced
 
 . Expression: a + (b - c)  Balanced
+
 
 
 
