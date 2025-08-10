@@ -51,17 +51,18 @@ This Returns 0 to signify that it has succeeded.
 
 (d) Sample Output of a Complete Run of the Program
 
-Expression: a + (b - c) * (d
+. Expression: a + (b - c) * (d
 
-Not Balanced
+  Not Balanced
 
-Expression: m + [a - b * (c + d * {m)]
+. Expression: m + [a - b * (c + d * {m)]
 
-Not Balanced
+  Not Balanced
 
-Expression: a + (b - c)
+. Expression: a + (b - c)
 
-Balanced
+  Balanced
+
 
 
 
