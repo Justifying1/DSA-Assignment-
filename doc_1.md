@@ -5,7 +5,7 @@ Documentation for 1 number question
 
     The program follows a stack data structure to keep count of opening brackets in formula.
     
-    A data structure called stack is declared as the struct Stack with:
+    A data structure called stack is declared as the struct Stack with :
     
    . items: an array of characters in fixed size of maximum size MAX = 100 to hold opening brackets ( (, [, {).
 
@@ -54,6 +54,7 @@ Documentation for 1 number question
 
     Expression: a + (b - c)
     Balanced
+
 
 
 
