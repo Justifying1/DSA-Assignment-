@@ -1,4 +1,4 @@
-Documentation for 6 number question
+# Documentation for 6 number question
 
 
 # Explanation of how the Data Structures Are Defined
@@ -17,7 +17,7 @@ The reason why this representation scheme of array-based is appealing is its spa
 
 
 
-(b) Description of the Functions Implemented with their purpose
+# Description of the Functions Implemented with their purpose
 
    To build, maintain, and perform utility computations on the heap the program uses a few modular functions. The functions are expected to be reusable, specialized in a particular task, in order to enhance the clarity and maintainability of the code.
 
@@ -35,32 +35,31 @@ The reason why this representation scheme of array-based is appealing is its spa
 
 3. buildMaxHeap:
 
-   Purpose: Builds a max-heap out of an unsorted array arr of n entries. It begins with the parent of the last-but-one node (index n/2 -1), and now updates the parent max heapify node by node towards the root. In this bottom-up implementation, the heap is constructed in O(n) time as opposed to O(nlogn).
+Purpose: Builds a max-heap out of an unsorted array arr of n entries. It begins with the parent of the last-but-one node (index n/2 -1), and now updates the parent max heapify node by node towards the root. In this bottom-up implementation, the heap is constructed in O(n) time as opposed to O(nlogn).
 
-   The algorithm converts the input array in a correct max-heap such that the largest element is the root of the max-heap.
+The algorithm converts the input array in a correct max-heap such that the largest element is the root of the max-heap.
 
 4. minHeapify:
 
-   Purpose: As maxHeapify except it ensures the efficiency property of min-heap on the subtree rooted at index i. It finds the smallest of the node and its children, swaps unless the node is the root of the tree and calls itself with the affected subtree, so the heap ordering (parent <= children) is true everywhere in the tree.
+Purpose: As maxHeapify except it ensures the efficiency property of min-heap on the subtree rooted at index i. It finds the smallest of the node and its children, swaps unless the node is the root of the tree and calls itself with the affected subtree, so the heap ordering (parent <= children) is true everywhere in the tree.
 
-   This is applied to construction and maintenance of min-heaps.
+This is applied to construction and maintenance of min-heaps.
 
 5. buildMinHeap:
 
-   Purpose: Creates a min-heap out of an unsorted array arr of length n by using minHeapify on each non-leaf node (and only then) beginning with bottom-most node (i.e., index n/2 - 1 down to index 0). It also takes O(n) time like buildMaxHeap.
+Purpose: Creates a min-heap out of an unsorted array arr of length n by using minHeapify on each non-leaf node (and only then) beginning with bottom-most node (i.e., index n/2 - 1 down to index 0). It also takes O(n) time like buildMaxHeap.
 
-   It restructures a min-heap in order that the root is the least element in the array.
+It restructures a min-heap in order that the root is the least element in the array.
 
 6. printArray:
 
-   Purpose: Print to the standard output one line containing elements of the array arr of size n, separated by spaces, and a terminating newline. It is referred to as the utility function and is utilized to show the resultant piles to verify them.
+Purpose: Print to the standard output one line containing elements of the array arr of size n, separated by spaces, and a terminating newline. It is referred to as the utility function and is utilized to show the resultant piles to verify them.
 
-   
-   They do not have returns on values of the functions, but only of their side effects upon the array or output, focusing on procedures.
-
+They do not have returns on values of the functions, but only of their side effects upon the array or output, focusing on procedures.
 
 
-(c) Overview of How the main() Method Is Organized
+
+# Overview of How the main() Method Is Organized
 
 1. User Input Collection:
 
@@ -94,3 +93,4 @@ The reason why this representation scheme of array-based is appealing is its spa
 
 
    
+
