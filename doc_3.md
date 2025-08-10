@@ -1,4 +1,4 @@
-Documentation for 3 number question
+# Documentation for 3 number question
 
 
 # Explanation of how the Data Structures Are Defined
@@ -57,6 +57,7 @@ Program is illustrated by the main () function:
    Forward: 11 21 36 48 50
    
    Reverse: 50 48 36 21 11
+
 
 
 
