@@ -3,58 +3,72 @@ Documentation for 5 number question
 (a) Explanation of how the Data Structures Are Defined
 
 1. Adjacency Matrix
-   A 2D matrix such that adjMatrix [i][j] = 1 indicates that there exists an edge between the vertex i and the vertex j.
-   The graph is undirected so adjMatrix[u][v] is 1 and adjMatrix[v][u] is also 1.
+
+An undirected graph on [MAX] vertices is represented by a 2D integer array adj[MAX][MAX] with the property that adj[i][j] = 1 is an undirected edge between     vertices i and j. Being undirected, adj[u][v] and adj[v][u] are both 1 per edge.
 
 2. Visited Array
 
-   Records the information of which vertices have been traversed.
-   And is initialized to 0 (not visited) prior to each BFS or DFS.
+A visited[MAX] array was devoted to storing information about whether or not a vertex in the graph has been visited or not. It is set to 0 before every BFS or DFS in order to make all the vertices unvisited.
 
-3. BFS-Queue
+3. BFS Queue
 
-   int front = -1, rear = -1;
-   Achieves the queue of BFS traversal.
-   queue operations of front and rear.
+The code is executed by taking an integer array queue[MAX] and two integer variables front and back initialized as -1. This queue is used to control the sequence of the vertices to visit in BFS traversal.
 
 (b) Description of the Functions Implemented with their purpose
 
 1. addEdge:
 
-   Purpose: Insert an undirected edge between a vertex u and vertex v.
+purpose: Adds an edge undirected edge between vertices u and v by making adj[u][v], adj[v][u] equal to 1.
 
-2. BFS (Breadth-First Search):
+2. Adjacency Matrix Display (main ()):
 
-   Purpose: Performs Breadth-First Search of a graph with known starting point, start.
+purpose: Just prints the adjacency matrix directly through iteration over the adj array to draw the graph structure.
 
-3. DFS (Depth-First Search):
+3. BFS:
 
-   Purpose: Depth-First Search: performs recursively with start as argument.
+purpose:Does Breadth-First Search with start as starting vertex. Goes through the graph level-checked using the queue and prints out in order the vertices        visited.
+
+4. DFS:
+
+puropse: Does Depth-First Search of vertex start. Visits a vertex, makes it visited and then recursively prints and visits all its unvisited neighbours.
 
 
 (c) Overview of How the main() Method Is Organized
 
- 1.  Initialization
+  1.  Initialization
 
-     Initializes adjMatrix with 0s (no edges to start start out with).
-     Specifies the number of vertices (vertices = 6).
+     . Sets adjadj to full of zeros (no edges).
+
+     . Fixes the number of vertices at the constant MAX = 6.
 
  2.  Graph Construction
 
-     Inserts edges to the adjacency matrix with the addEdge():
-     0.4, 0.5, 1.9, 1.5, 6.4, 2.4
-     (Note: Vertex 9 and 6 exceeded the limit on the number of vertices (vertices=6), so they will not be shown in the printed matrix - this may produce wrongly printed output and should be repaired.)
+     Add edges between the pairs of vertices as follows using addEdge():
+
+     (0, 4)
+     (0, 5)
+     (1, 5)
+     (2, 4)
 
  3.  Presentation of Graph
 
-    Calls callsdisplayMatrix() to get an adjacency matrix could be printed.
-    BFS Traversal
-    Makes a recursive call of BFS(0, vertices) to initiate a traverse at vertex 0.
+   . Prints out the adjacency matrix in order to display the structure of the graph.
+
+     BFS Traversal
+
+   . Restores the visited array to 0.
+
+   . Makes a call BFS(0) to begin a BFS traversal at vertex 0.
+
+   . Prints order of traversal.
 
  4.  DFS Traversal
 
-     Releads the visited array.
-     Takes the call to DFS(0, vertices) to initiate traversal at vertex 0.
+   . Restores the visited array to 0.
+
+   . Recursively calls DFS(0) to begin DFS traversal at this vertex 0.
+
+   . Prints order of traversal.
 
 (d) Sample Output of a Complete Run of the Program 
 
@@ -69,3 +83,4 @@ Documentation for 5 number question
 
     BFS Traversal: 0 4 5 2 1
     DFS Traversal: 0 4 2 5 1
+
