@@ -1,7 +1,7 @@
 Documentation for 1 number question
 
 
-(a) Explanation of how the Data Structures Are Defined
+# Explanation of how the Data Structures Are Defined
 
 The program follows a stack data structure to keep count of opening brackets in formula.
 A data structure called stack is declared as the struct Stack with :
@@ -10,7 +10,7 @@ A data structure called stack is declared as the struct Stack with :
    
    . top: An int that keeps the number of the top of the stack. It is set to -1 to signify empty stack.
 
-(b) Description of the Functions Implemented with their purpose
+# Description of the Functions Implemented with their purpose
 
 1. initStack :
 
@@ -33,7 +33,7 @@ A data structure called stack is declared as the struct Stack with :
    purpose: Decides whether brackets of the input expression are balanced.
    
 
-(c) Overview of How the main() Method Is Organized
+# Overview of How the main() Method Is Organized
 
 Function main is designed in such a way that it checks the isBalanced function on three mathematical expressions that are predetermined.
 
@@ -52,13 +52,14 @@ It prints each expression followed by an output that indicates whether it is or 
 This Returns 0 to signify that it has succeeded.
 
 
-(d) Sample Output of a Complete Run of the Program
+# Sample Output of a Complete Run of the Program
 
 . Expression: a + (b - c) * (d  Not Balanced
 
 . Expression: m + [a - b * (c + d * {m)]  Not Balanced
 
 . Expression: a + (b - c)  Balanced
+
 
 
 
