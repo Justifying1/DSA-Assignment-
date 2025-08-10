@@ -7,11 +7,11 @@ A singly linked list has been utilized as our data structure in this program.
 
 We suppose it by means of the struct Node:
 
-Data: it holds the integer value of every node.
+. Data: it holds the integer value of every node.
 
-Next: A pointer to the address of the next node in linked list.
+. Next: A pointer to the address of the next node in linked list.
 
-    The struct Node enable us to construct several nodes and all the nodes are connected to form a linked list.
+The struct Node enable us to construct several nodes and all the nodes are connected to form a linked list.
     
 
 # Description of the Functions Implemented with their purpose
@@ -57,6 +57,7 @@ Program is illustrated by the main () function:
    Forward: 11 21 36 48 50
    
    Reverse: 50 48 36 21 11
+
 
 
 
