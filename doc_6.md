@@ -23,15 +23,15 @@ To build, maintain, and perform utility computations on the heap the program use
 
 1. swap:
    
-   Purpose: A utility function that interchange the values of two integer elements which are at a and b. It takes advantage of such a temporary variable to carry out the swap atomically.
+Purpose: A utility function that interchange the values of two integer elements which are at a and b. It takes advantage of such a temporary variable to carry out the swap atomically.
 
-   This is necessary in order to rearrange the elements in the process of heapify without losing information.
+This is necessary in order to rearrange the elements in the process of heapify without losing information.
 
 2. maxHeapify:
    
-   Purpose: Preserves the max-heap property on the subtree rooted at index i in an array arr having size n. It can compare the node to its left and right child, finds the largest out of them, and swap therefore making sure that the parent is bigger than or equal to its children. When a swap takes place it recursively calls itself on the subtree it affects so as to trickle down the heap property.
+Purpose: Preserves the max-heap property on the subtree rooted at index i in an array arr having size n. It can compare the node to its left and right child, finds the largest out of them, and swap therefore making sure that the parent is bigger than or equal to its children. When a swap takes place it recursively calls itself on the subtree it affects so as to trickle down the heap property.
 
-   This is an essential operation used in constructing and updating max-heaps so that the heap invariant (parent >= children) is satisfied.
+This is an essential operation used in constructing and updating max-heaps so that the heap invariant (parent >= children) is satisfied.
 
 3. buildMaxHeap:
 
@@ -99,6 +99,7 @@ Min-Heap: 2 2 6 4 8 9
 
 
    
+
 
 
 
