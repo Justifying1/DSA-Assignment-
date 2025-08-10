@@ -1,7 +1,7 @@
 Documentation for 2 number question
 
 
-(a) Explanation of how the Data Structures Are Defined
+# Explanation of how the Data Structures Are Defined
 
 Two stacks are based on arrays, used in the program:
 
@@ -10,7 +10,7 @@ Two stacks are based on arrays, used in the program:
    2. Number Stack: Array of modest size doubles (stack[MAX] where MAX = 100) which holds operand during evaluation of postfix. There is an integer, initialized to -1, to represent the top element with a variable top.
 
 
-(b) Description of the Functions Implemented with their purpose
+# Description of the Functions Implemented with their purpose
 
 1. precedence:
    
@@ -29,7 +29,7 @@ Two stacks are based on arrays, used in the program:
    Purpose: Tests postfix expression to find out its numerical answer.
 
 
-(c) Overview of How the main() Method Is Organized
+# Overview of How the main() Method Is Organized
 
 The main() function
 
@@ -47,13 +47,14 @@ The main() function
 
 
 
-(d) Sample Output of a Complete Run of the Program
+# Sample Output of a Complete Run of the Program
 
    Infix: 3 + 4 * 2
    
    Postfix: 3 4 2 * +
    
    Result: 11.00
+
 
 
 
