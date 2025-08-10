@@ -45,13 +45,16 @@ The main() function
 
     Returns 0 to indicate successful execution.
 
-   
+
 
 (d) Sample Output of a Complete Run of the Program
 
    Infix: 3 + 4 * 2
+   
    Postfix: 3 4 2 * +
+   
    Result: 11.00
+
 
 
 
