@@ -35,7 +35,7 @@ Documentation for 3 number question
 
 # Overview of How the main() Method Is Organized
 
-      Program is illustrated by the main () function:
+Program is illustrated by the main () function:
 
    1. Init an empty list by putting head = NULL.
 
@@ -53,7 +53,9 @@ Documentation for 3 number question
 # Sample Output of a Complete Run of the Program
 
    Forward: 11 21 36 48 50
+   
    Reverse: 50 48 36 21 11
+
 
 
 
