@@ -76,6 +76,8 @@ Choose a sorting algorithm:
 4. Merge Sort
 Enter choice (1-4): 2
 Sorted array (Selection Sort): 284 386 790 800 805 859 905 940
+
 Total comparisons: 28
 
 Total swaps: 7
+
