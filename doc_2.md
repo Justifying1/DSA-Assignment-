@@ -1,4 +1,4 @@
-Documentation for 2 number question
+# Documentation for 2 number question
 
 
 # Explanation of how the Data Structures Are Defined
@@ -54,6 +54,7 @@ The main() function
    Postfix: 3 4 2 * +
    
    Result: 11.00
+
 
 
 
