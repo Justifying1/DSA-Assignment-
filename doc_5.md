@@ -1,6 +1,6 @@
 # Documentation for 5 number question
 
-(a) Explanation of how the Data Structures Are Defined
+# Explanation of how the Data Structures Are Defined
 
 1. Adjacency Matrix
 
@@ -14,7 +14,7 @@ A visited[MAX] array was devoted to storing information about whether or not a v
 
 The code is executed by taking an integer array queue[MAX] and two integer variables front and back initialized as -1. This queue is used to control the sequence of the vertices to visit in BFS traversal.
 
-(b) Description of the Functions Implemented with their purpose
+# Description of the Functions Implemented with their purpose
 
 1. addEdge:
 
@@ -33,13 +33,13 @@ purpose:Does Breadth-First Search with start as starting vertex. Goes through th
 puropse: Does Depth-First Search of vertex start. Visits a vertex, makes it visited and then recursively prints and visits all its unvisited neighbours.
 
 
-(c) Overview of How the main() Method Is Organized
+# Overview of How the main() Method Is Organized
 
   1.  Initialization
 
-     . Sets adjadj to full of zeros (no edges).
+. Sets adjadj to full of zeros (no edges).
 
-     . Fixes the number of vertices at the constant MAX = 6.
+. Fixes the number of vertices at the constant MAX = 6.
 
  2.  Graph Construction
 
@@ -83,6 +83,7 @@ puropse: Does Depth-First Search of vertex start. Visits a vertex, makes it visi
 
     BFS Traversal: 0 4 5 2 1
     DFS Traversal: 0 4 2 5 1
+
 
 
 
