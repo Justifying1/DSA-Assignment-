@@ -19,7 +19,7 @@ The reason why this representation scheme of array-based is appealing is its spa
 
 # Description of the Functions Implemented with their purpose
 
-   To build, maintain, and perform utility computations on the heap the program uses a few modular functions. The functions are expected to be reusable, specialized in a particular task, in order to enhance the clarity and maintainability of the code.
+To build, maintain, and perform utility computations on the heap the program uses a few modular functions. The functions are expected to be reusable, specialized in a particular task, in order to enhance the clarity and maintainability of the code.
 
 1. swap:
    
@@ -99,6 +99,7 @@ Min-Heap: 2 2 6 4 8 9
 
 
    
+
 
 
 
